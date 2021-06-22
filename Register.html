@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <form action="thanks.html" method="GET">
+
+        <table width=100% border=1>
+            <tr>
+                <td colspan="2"align="center"><h1>Registration Form</h1></td>
+            </tr>
+
+            <tr>
+                <td ><label for="fname">Enter your first name:</label></td>
+                <td><input type="text" id="fname" name="fname" required></td>
+            </tr>
+
+            <tr>
+                <td ><label for="lname">Enter your last name:</label></td>
+                <td><input type="text" id="lname" name="lname" required></td>
+            </tr>
+
+            <tr>
+                <td ><label for="Username">Enter your username:</label></td>
+                <td><input type="text" id="username" name="username" required></td>
+            </tr>
+
+            <tr>
+                <td ><label for="psw">Choose your password:</label></td>
+                <td><input type="password" id="psw" required></td>
+            </tr>
+
+            <tr>
+                <td>Choose your gender</td>
+                <td><input type="radio" id="Male" name="gender" value="Male"> <label for="Male">Male</label><br>
+                    <input type="radio" id="Female" name="gender" value="Female"> <label for="Female">Female</label><br>
+                    <input type="radio" id="Other" name="gender" value="Other"> <label for="Other">Other</label><br>
+            </tr>
+
+            <tr>
+                <td ><label for="dob">Enter your DOB</label></td>
+                <td><input type="date" name="dob" id="dob" required></td>
+            </tr>
+
+            <tr>
+                <td ><label for="Address">Eneter your address</label></td>
+                <td><textarea type="text" id="Address" name="Address" cols="30" rows="10"></textarea></td>
+            </tr>
+
+            <tr>
+                <td>Tick your qualifications</td>
+                <td ><input type="checkbox" id="qual1" value="Graduate" name="qual1"> <label for="qual1">Gradute</label><br>
+                    <input type="checkbox" id="qual2" value="Post Graduate" name="qual2"> <label for="qual2">Post Graduate</label><br>
+                    <input type="checkbox" id="qual3" value="PhD" name="qual3"> <label for="qual3">PhD</label></td>    
+            </tr>
+
+            <tr>
+                <td ><label for="Country">Select your Country</label></td>
+                <td><select name="Country" id="Country">
+                    <option value="-Select-">-Select-</option>
+                    <option value="America">America</option>
+                    <option value="India">India</option>
+                    <option value="Japan">Japan</option>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td ><label for="photo">Upload your photo</label></td>
+                <td><input type="file" name="photo" id="photo"></td>
+            </tr>
+
+            <tr>
+                <td ><label for="E-mail">Enter E-mail ID</label></td>
+                <td><input type="email" name="E-mail" id="E-mail"></td>
+            </tr>
+
+            <tr>
+                <td><input type="submit"></td>
+                <td><input type="reset"></td>
+            </tr>
+
+
+        </table>
+
+    </form>
+
+    
+</body>
+</html>
